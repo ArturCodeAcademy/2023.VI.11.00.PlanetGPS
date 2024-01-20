@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 [RequireComponent(typeof(SphereCollider))]
 public class Earth : MonoBehaviour, IPointerClickHandler
 {
+	public static Earth Instance { get; private set; }
+
 	public Action<Vector3> Click;
 
     public float Radius => _collider.radius;
@@ -13,6 +15,7 @@ public class Earth : MonoBehaviour, IPointerClickHandler
 
 	private void Awake()
 	{
+		Instance = this;
 		_collider = GetComponent<SphereCollider>();
 	}
 

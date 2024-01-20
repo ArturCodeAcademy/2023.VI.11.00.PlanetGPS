@@ -1,0 +1,44 @@
+{ "Label": "New York", "Latitude": 40.7128, "Longitude": -74.0060 }
+{ "Label": "Ryga", "Latitude": 56.9718, "Longitude": 24.0466 }
+{ "Label": "Tokyo", "Latitude": 35.6895, "Longitude": 139.6917 }
+{ "Label": "Warszawa", "Latitude": 52.2297, "Longitude": 21.0122 }
+{ "Label": "Wien", "Latitude": 48.2082, "Longitude": 16.3738 }
+{ "Label": "Zürich", "Latitude": 47.3769, "Longitude": 8.5417 }
+{ "Label":  "Vilnius", "Latitude": 54.6872, "Longitude": 25.2797 }
+{ "Label": "Berlin", "Latitude": 52.5200, "Longitude": 13.4050 }
+{ "Label": "London", "Latitude": 51.5074, "Longitude": -0.1278 }
+{ "Label": "Paris", "Latitude": 48.8566, "Longitude": 2.3522 }
+{ "Label": "Madrid", "Latitude": 40.4168, "Longitude": -3.7038 }
+{ "Label": "Roma", "Latitude": 41.9028, "Longitude": 12.4964 }
+{ "Label": "Athens", "Latitude": 37.9838, "Longitude": 23.7275 }
+{ "Label": "Moscow", "Latitude": 55.7558, "Longitude": 37.6173 }
+{ "Label": "Beijing", "Latitude": 39.9042, "Longitude": 116.4074 }
+{ "Label": "New Delhi", "Latitude": 28.6139, "Longitude": 77.2090 }
+{ "Label": "Cairo", "Latitude": 30.0444, "Longitude": 31.2357 }
+{ "Label": "Cape Town", "Latitude": -33.9249, "Longitude": 18.4241 }
+{ "Label": "Rio de Janeiro", "Latitude": -22.9068, "Longitude": -43.1729 }
+{ "Label": "Sydney", "Latitude": -33.8688, "Longitude": 151.2093 }
+{ "Label": "Wellington", "Latitude": -41.2865, "Longitude": 174.7762 }
+{ "Label": "Buenos Aires", "Latitude": -34.6037, "Longitude": -58.3816 }
+{ "Label": "Mexico City", "Latitude": 19.4326, "Longitude": -99.1332 }
+{ "Label": "Los Angeles", "Latitude": 34.0522, "Longitude": -118.2437 }
+{ "Label": "Toronto", "Latitude": 43.6532, "Longitude": -79.3832 }
+{ "Label": "São Paulo", "Latitude": -23.5505, "Longitude": -46.6333 }
+{ "Label": "Lisboa", "Latitude": 38.7223, "Longitude": -9.1393 }
+{ "Label": "Barcelona", "Latitude": 41.3851, "Longitude": 2.1734 }
+{ "Label": "Amsterdam", "Latitude": 52.3702, "Longitude": 4.8952 }
+{ "Label": "Brussels", "Latitude": 50.8503, "Longitude": 4.3517 }
+{ "Label": "Helsinki", "Latitude": 60.1699, "Longitude": 24.9384 }
+{ "Label": "Copenhagen", "Latitude": 55.6761, "Longitude": 12.5683 }
+{ "Label": "Oslo", "Latitude": 59.9139, "Longitude": 10.7522 }
+{ "Label": "Stockholm", "Latitude": 59.3293, "Longitude": 18.0686 }
+{ "Label": "Reykjavik", "Latitude": 64.1466, "Longitude": -21.9426 }
+{ "Label": "Ankara", "Latitude": 39.9334, "Longitude": 32.8597 }
+{ "Label": "Jerusalem", "Latitude": 31.7683, "Longitude": 35.2137 }
+{ "Label": "Dubai", "Latitude": 25.2048, "Longitude": 55.2708 }
+{ "Label": "Mumbai", "Latitude": 19.0760, "Longitude": 72.8777 }
+{ "Label": "Singapore", "Latitude": 1.3521, "Longitude": 103.8198 }
+{ "Label": "Hong Kong", "Latitude": 22.3193, "Longitude": 114.1694 }
+{ "Label": "Taipei", "Latitude": 25.0330, "Longitude": 121.5654 }
+{ "Label": "Tokyo", "Latitude": 35.6895, "Longitude": 139.6917 }
+{ "Label": "Seoul", "Latitude": 37.5665, "Longitude": 126.9780 }
