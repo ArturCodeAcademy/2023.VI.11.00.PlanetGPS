@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class CityCountSelector : MonoBehaviour
 {
-	public UnityEvent<int> Aprooved;
+	public UnityEvent<int> Approved;
 
     public const int MIN_CITY_COUNT = 1;
     public const int MAX_CITY_COUNT = 25;
@@ -17,19 +17,19 @@ public class CityCountSelector : MonoBehaviour
 	private void Awake()
 	{
 		_cityCountInputField.text = _cityCountString;
-		Aprooved ??= new UnityEvent<int>();
+		Approved ??= new UnityEvent<int>();
 	}
 
 	private void OnEnable()
 	{
 		_cityCountInputField.onValueChanged.AddListener(OnCityCountChanged);
-		_aprooveButton.onClick.AddListener(OnAprooveButtonClicked);
+		_aprooveButton.onClick.AddListener(OnApproveButtonClicked);
 	}
 
 	private void OnDisable()
 	{
 		_cityCountInputField.onValueChanged.RemoveListener(OnCityCountChanged);
-		_aprooveButton.onClick.RemoveListener(OnAprooveButtonClicked);
+		_aprooveButton.onClick.RemoveListener(OnApproveButtonClicked);
 	}
 
 	private void OnCityCountChanged(string value)
@@ -37,13 +37,13 @@ public class CityCountSelector : MonoBehaviour
 		_cityCountString = value;
 	}
 
-	private void OnAprooveButtonClicked()
+	private void OnApproveButtonClicked()
 	{
 		if (int.TryParse(_cityCountString, out int count))
 		{
 			if (count >= MIN_CITY_COUNT && count <= MAX_CITY_COUNT)
 			{
-				Aprooved.Invoke(count);
+				Approved.Invoke(count);
 				return;
 			}
 		}
