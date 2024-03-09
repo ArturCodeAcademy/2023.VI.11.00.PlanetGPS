@@ -6,7 +6,7 @@ public class LocationSelector : MonoBehaviour
 	[SerializeField]
 	private TMP_Text _coordText;
 
-	private GeoCoord _selectedCoord;
+	public GeoCoord SelectedCoord { get; private set; }
 
 	private void OnEnable()
 	{
@@ -20,9 +20,9 @@ public class LocationSelector : MonoBehaviour
 
 	private void OnEarthClicked(Vector3 position)
 	{
-		_selectedCoord = position.ToGeoCoord();
+		SelectedCoord = position.ToGeoCoord();
 		_coordText.text =
-			$"({_selectedCoord.Latitude:F6}, {_selectedCoord.Longitude:F6})";
+			$"({SelectedCoord.Latitude:F6}, {SelectedCoord.Longitude:F6})";
 
 		transform.position = position;
 		transform.LookAt(Vector3.zero, Vector3.up);
