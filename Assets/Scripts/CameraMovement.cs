@@ -37,7 +37,7 @@ public class CameraMovement : MonoBehaviour
             movement.y *= -1;
 
         movement.Normalize();
-        movement *= _movementSensitivity * Time.deltaTime;
+        movement *= _movementSensitivity * Time.deltaTime * Mathf.Clamp01(Mathf.InverseLerp(_minFov, _maxFov, _fov) + .05f);
         _xRotation = Mathf.Clamp(_xRotation + movement.y, MIN_X_ROTATION, MAX_X_ROTATION);
         _yRotation += movement.x;
         if (_yRotation > 360)

@@ -27,4 +27,19 @@ public class LocationSelector : MonoBehaviour
 		transform.position = position;
 		transform.LookAt(Vector3.zero, Vector3.up);
 	}
+
+	public void MoveToOrigin()
+	{
+		transform.position = Vector3.zero;
+	}
+
+	public void Unsubscribe()
+	{
+		Earth.Instance.Click -= OnEarthClicked;
+	}
+
+	public void Subscribe()
+	{
+		Earth.Instance.Click += OnEarthClicked;
+	}
 }

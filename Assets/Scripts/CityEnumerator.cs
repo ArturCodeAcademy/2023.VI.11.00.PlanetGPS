@@ -5,6 +5,7 @@ public class CityEnumerator : MonoBehaviour
 {
     public int CitiesCount => _cities.Length;
     public int CurrentCity => _currentCityIndex + 1;
+    public GeoCoord CurrentCityCoord => _cities[_currentCityIndex];
 
     public event Action<GeoCoord> OnCityChanged;
 
